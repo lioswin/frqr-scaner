@@ -1,0 +1,49 @@
+*::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(134, 181, 211);
+}
+
+.bigger{
+    margin-top: -14rem;
+    top: 50%;
+    position: absolute;
+    width: 97%;
+    background-color: rgb(134, 181, 211);
+    margin-left: 0;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    margin-left:-110px;
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius:20px;
+}
+
+.center{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 15rem;
+    gap: 10px;
+}
+
+h3{
+    font-size:1.3rem;
+}
+h6{
+    margin-top: -10px;
+    text-align: center;
+    font-size:.9rem;
+    color: grey;
+}
+img{
+  border-radius: 20px; 
+}
+
+
