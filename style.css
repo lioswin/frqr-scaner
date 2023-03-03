@@ -6,7 +6,7 @@ body{
     background-color: rgb(134, 181, 211);
 }
 
-.bigger{
+main{
     margin-top: -14rem;
     top: 50%;
     position: absolute;
@@ -33,10 +33,12 @@ body{
     gap: 10px;
 }
 
-h3{
+.first{
     font-size:1.3rem;
+    font-weight: 500;
 }
-h6{
+.second{
+    font-weight: 400;
     margin-top: -10px;
     text-align: center;
     font-size:.9rem;
